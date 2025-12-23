@@ -1,0 +1,1262 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(33, 32, 32);
+  cursor: pointer;
+}
+body {
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  background-color: rgb(33, 32, 32);
+}
+nav {
+  display: flex;
+  position: relative;
+  color: white;
+}
+nav button {
+  background-color: none;
+}
+nav ul li {
+  display: inline-flex;
+  margin: 1rem 0 0 2.5rem;
+}
+nav img {
+  margin: 0.7rem 0 0 6rem;
+}
+
+nav button {
+  margin-left: 6rem;
+  margin-top: 0.6rem;
+  border-radius: 5rem;
+  width: 9rem;
+  height: 3rem;
+  outline: none;
+  background-color: rgb(245, 176, 49);
+  border: 1px solid orange;
+  color: white;
+}
+nav ul li i {
+  margin: 0.35rem 3.5px 0 0;
+  color: orange;
+}
+.secondpart {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+.secondpart div{
+  width: 25rem;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+.secondpart div h2 {
+  text-align: center;
+  margin-top: 1rem;
+  background-color: orange;
+}
+.secondpart div i {
+  font-size: 3rem;
+  margin: 2.3rem 0 0 10rem;
+  background-color: orange;
+}
+.secondpart div i:hover {
+  font-size: 3rem;
+  margin: 2.3rem 0 0 10rem;
+  background-color: orange;
+  color: black;
+}
+.secondpart .order {
+  background-color: orange;
+  height: 21rem;
+}
+.secondpart div p {
+  background-color: orange;
+  padding: 8px;
+  line-height: 1.7rem;
+}
+.secondpart .delivery {
+  background-color: orange;
+}
+.secondpart .delicious {
+  background-color: orange;
+}
+.span h2 {
+  color: orange;
+  padding-top: 5rem;
+  margin-top: -1rem;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.span h1 {
+  color: white;
+  padding-top: 1rem;
+  margin-top: -1rem;
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.third {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -1rem;
+}
+.third div img {
+  height: 27rem;
+  margin-top: 4rem;
+  border-radius: 33rem;
+}
+.third div img:hover {
+  transition: 2s;
+  transform: scale(1.1);
+}
+.third div h2 {
+  color: white;
+  text-align: center;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+.viewmore {
+  text-align: center;
+}
+.viewmore .view:hover {
+  width: 9rem;
+  height: 3.6rem;
+  color: orange;
+  background-color: rgb(33, 32, 32);
+  border: 1px solid orange;
+  outline: none;
+  border-radius: 10rem;
+  transition: 0.5s;
+}
+div .view {
+  width: 9rem;
+  height: 3.6rem;
+  background-color: orange;
+  color: white;
+  outline: none;
+  border-radius: 10rem;
+}
+.navbarstyleouter {
+  height: 8rem;
+  margin-top: -1rem;
+  padding-top: 3.5rem;
+}
+.navbarstyleouter .navbarstyle {
+  width: 40%;
+  display: flex;
+  height: 3rem;
+  border-radius: 2rem;
+  background-color: rgb(55, 54, 54);
+  margin-left: 28.5rem;
+}
+.navbarstyleouter .navbarstyle h5 {
+  color: white;
+  margin-top: 0.7rem;
+  background-color: rgb(55, 54, 54);
+}
+.navbarstyleouter .navbarstyle h5 .all {
+  color: white;
+  outline: none;
+  background-color: orange;
+  width: 6.28rem;
+  border-radius: 2rem;
+  height: 3rem;
+  margin-top: -0.7rem;
+  border: none;
+}
+.navbarstyleouter .navbarstyle h5 .button2 {
+  outline: none;
+  color: white;
+  background-color: rgb(55, 54, 54);
+  width: 6.28rem;
+  border-radius: 2rem;
+  height: 3rem;
+  margin-top: -0.7rem;
+  border: none;
+}
+.navbarstyleouter .navbarstyle h5 .button2:hover {
+  outline: none;
+  color: white;
+  background-color: orange;
+  width: 6.28rem;
+  border-radius: 2rem;
+  height: 3rem;
+  margin-top: -0.7rem;
+  border: none;
+}
+
+.fourth {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 62rem;
+  justify-content: space-around;
+}
+.fourth .first img {
+  height: 20rem;
+  margin-bottom: 9rem;
+  margin-left: 1.8rem;
+}
+.fourth img:hover {
+  transition: 0.9s;
+  transform: scale(0.8);
+}
+.fourth .first1 img {
+  height: 20rem;
+  margin-left: 4.4rem;
+}
+.fourth .first1 img:hover {
+  transition: 0.9s;
+  transform: scale(0.8);
+}
+
+.fourth .first2 img {
+  height: 18rem;
+  margin-top: 0.1rem;
+  margin-left: 0.4rem;
+}
+.fourth .first2 img:hover {
+  transition: 0.9s;
+  transform: scale(0.8);
+}
+
+.fourth .first h5 {
+  color: white;
+  text-align: center;
+  margin-top: -9rem;
+}
+.fourth .first p {
+  color: white;
+  text-align: center;
+}
+.fourth .first h5 p h7 {
+  text-align: center;
+  color: orange;
+}
+
+.fourth .first2 h5 {
+  color: white;
+  text-align: center;
+  margin-top: 1.7rem;
+}
+.fourth .first2 p {
+  color: rgb(183, 177, 177);
+  text-align: center;
+}
+
+.fourth .first1 h5 {
+  color: white;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+.fourth .first1 p {
+  color: rgb(183, 177, 177);
+  text-align: center;
+}
+
+.fourth .product button {
+  background-color: transparent;
+  border: none;
+  margin: 0rem 0 1rem 9rem;
+  display: block;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color: orange;
+  font-weight: 500;
+  width: 6rem;
+  font-size: 0.9rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+.fourth .product button:hover{
+  color: white;
+}
+
+.fifth {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  line-height: 3rem;
+  text-align: center;
+  height: 40rem;
+  padding-top: 3rem;
+}
+.fifth .fifthone {
+  width: 50%;
+  background-color: white;
+  margin-top: 4.5rem;
+}
+.fifthone h2 {
+  color: orange;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+}
+.fifthone h2:hover {
+  color: black;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+}
+.fifthone h2 i:hover {
+  background-color: white;
+}
+.fifth .fifthone p {
+  background-color: white;
+  width: 23rem;
+  text-align: start;
+  margin-left: 13rem;
+  margin-top: 1.5rem;
+  line-height: 1.2rem;
+  font-size: 1rem;
+}
+.fifth .fifthtwo {
+  width: 50%;
+  background-color: white;
+}
+.fifthtwo input {
+  background-color: white;
+  margin-top: 3rem;
+  width: 70%;
+  padding-left: 1rem;
+  border: 1px solid black;
+  outline: none;
+}
+
+.fifthtwo h3 {
+  background-color: white;
+  color: black;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.fifthtwo button {
+  background-color: black;
+  color: white;
+  margin-top: 2.5rem;
+  width: 9rem;
+  border-radius: 4rem;
+  outline: none;
+  border: 1px solid black;
+  font-weight: 500;
+}
+.fifthtwo button:hover {
+  background-color: white;
+  color: black;
+  margin-top: 2.5rem;
+  width: 9rem;
+  border-radius: 4rem;
+  outline: none;
+  border: 1px solid black;
+  font-weight: 500;
+}
+.fifthone h1 {
+  background-color: white;
+  color: black;
+  font-size: 3.5rem;
+  letter-spacing: 5px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.fifthone .pno {
+  background-color: black;
+  color: white;
+  height: 5.3rem;
+  padding-top: 0.5rem;
+  width: 22rem;
+  margin-left: 12rem;
+  margin-top: 2rem;
+  border: 12px solid orange;
+}
+.fifthone i {
+  background: transparent;
+}
+
+.sixth h2 {
+  color: orange;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 2.5rem;
+}
+.sixth h1 {
+  color: white;
+  font-size: 3.1rem;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.seventh {
+  margin-top: -1.21rem;
+}
+.carous {
+  background-color: rgb(33, 32, 32);
+  margin: 20px;
+  width: 90%;
+  height: 30rem;
+  display: flex;
+  overflow-x: auto;
+  gap: 1em;
+  margin-left: 5rem;
+}
+.carous::-webkit-scrollbar {
+  display: none;
+}
+.carous .card1 {
+  flex: 0 0 5em;
+  height: 10em;
+  padding: 1em;
+  outline: none;
+  font-size: 3rem;
+  border-radius: 0.2em;
+  text-align: center;
+  justify-content: center;
+}
+.carous .card p {
+  background-color: white;
+  color: black;
+  font-size: large;
+  text-align: center;
+}
+.card1 .card img {
+  height: 20rem;
+}
+.carous .group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  animation: spin 20s infinite linear;
+  padding-right: 1em;
+}
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+
+.eighth h2 {
+  color: orange;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+}
+.eighth h1 {
+  margin-top: -0.5rem;
+  color: black;
+  background-color: white;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.eighth-one {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+.eighth-one img {
+  width: 25rem;
+  height: 15rem;
+  background-color: white;
+}
+
+.eighth-one img:hover {
+  width: 25rem;
+  height: 15rem;
+  transition: 1s;
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.eighth-one .first div {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eighth-one div p {
+  background-color: white;
+  font-weight: 100;
+  margin-top: 0.3rem;
+}
+.eighth-one h5 {
+  background-color: white;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+.eighth-one h5:hover {
+  color: orange;
+  padding-bottom: 1rem;
+}
+
+.eighth-one .first .readmore {
+  background-color: white;
+  margin-top: -0.46rem;
+  font-weight: 150;
+  color: orange;
+}
+.eighth-one .first .readmore:hover {
+  color: black;
+  background-color: white;
+  margin-top: -0.46rem;
+  font-weight: 150;
+}
+
+.ninth {
+  height: 31rem;
+  display: flex;
+  color: white;
+  text-align: center;
+  margin-top: -0.5rem;
+  justify-content: space-around;
+}
+.ninth .inner {
+  width: 30%;
+}
+.ninth img {
+  height: 7.9rem;
+  width: 8rem;
+  border-radius: 100rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.ninth p {
+  margin-top: 1.5rem;
+  line-height: 1.7rem;
+}
+
+.tenth {
+  display: flex;
+  height: 40rem;
+}
+
+.tenth .inner {
+  width: 50%;
+}
+
+.eleventh {
+  display: flex;
+  color: white;
+  height: 30rem;
+}
+
+.eleventh .first {
+  width: 35%;
+
+  text-align: start;
+}
+.eleventh .orange:hover {
+  color: orange;
+}
+
+.footer {
+  color: white;
+  height: 2rem;
+  font-size: 1.1rem;
+}
+.footer i {
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 1.8rem;
+}
+.footer i:hover {
+  font-size: 1.5rem;
+  color: white;
+  color: orange;
+  margin-left: 1.8rem;
+}
+
+/* pages.html secion style*/
+
+.richresturant {
+  width: 100%;
+  height: 25rem;
+}
+.richresturant img {
+  width: 100%;
+  height: 25rem;
+  object-fit: cover;
+  opacity: 0.4;
+  backdrop-filter: blur(40px);
+}
+
+.richresturant .top-text {
+  position: absolute;
+  top: 14rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background: transparent;
+}
+
+.aboutcontainer {
+  background-color: white;
+  margin-top: 5rem;
+  display: flex;
+  height: 33rem;
+}
+.aboutcontainer .img {
+  background-color: white;
+}
+.aboutcontainer img {
+  background-color: white;
+  height: 30rem;
+  margin: 0 0 0 8rem;
+}
+.aboutcontainer .text {
+  background-color: white;
+  margin: 7rem 0 0 2rem;
+}
+.aboutcontainer .text h2 {
+  background-color: white;
+  color: orange;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutcontainer .text h1 {
+  background-color: white;
+  color: black;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  font-size: 3.2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.aboutcontainer .text p {
+  background-color: white;
+  font-size: 14px;
+  width: 90%;
+  margin-top: 1rem;
+}
+
+.aboutstory {
+  height: 28rem;
+  background-color: rgb(248, 242, 232);
+}
+.aboutstory h2 {
+  background-color: rgb(248, 242, 232);
+  color: orange;
+  text-align: center;
+  padding-top: 4rem;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.aboutstory h1 {
+  background-color: rgb(248, 242, 232);
+  color: black;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+  font-size: 3.2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.aboutstory p {
+  text-align: center;
+  background-color: rgb(248, 242, 232);
+  width: 65%;
+  margin-left: 17rem;
+  font-size: 14px;
+  padding-top: 1rem;
+  line-height: 1.5rem;
+}
+.aboutstory img {
+  margin: 0.5rem 0 0 43%;
+  background-color: rgb(248, 242, 232);
+}
+
+.newdiv {
+  padding-top: 1.5rem;
+  display: flex;
+  background-color: white;
+}
+.newdiv .video {
+  margin-top: 5rem 0 0 3rem;
+  background-color: white;
+}
+.newdiv .text {
+  background-color: white;
+  margin: 11rem 0 0 2rem;
+}
+.newdiv h1 {
+  background-color: white;
+  color: black;
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+  font-size: 3.2rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.newdiv h2 {
+  background-color: white;
+  color: orange;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.newdiv p {
+  background-color: white;
+  width: 92%;
+  font-size: 14px;
+  padding-top: 1rem;
+  line-height: 1.5rem;
+}
+.contactpage {
+  height: 25rem;
+}
+.contactpage h1 {
+  color: rgb(252, 222, 222);
+  opacity: 1;
+  margin-top: -15rem;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.contactone {
+  background-color: white;
+  display: flex;
+  height: 50rem;
+}
+.contactone .contactdetail {
+  margin-top: 4rem 0 0 5rem;
+}
+.contactone .contactdetail h2 {
+  font-size: 2.7rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contactone .contactdetail p {
+  font-size: 0.9rem;
+}
+.contactone .contact {
+  margin-top: 3rem;
+  margin-left: 5rem;
+}
+.contactone .contact h2 {
+  background-color: white;
+  color: orange;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.contactone .contact h1 {
+  font-size: 4rem;
+  letter-spacing: 1px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contactone .contact input {
+  background-color: white;
+  margin-top: 3rem;
+  width: 70%;
+  padding-left: 1rem;
+  border: 1px solid black;
+  outline: none;
+  width: 50rem;
+  height: 3rem;
+}
+.contactone button {
+  height: 4rem;
+  width: 11rem;
+  border-radius: 3rem;
+  margin: 2rem 0 0 40%;
+  outline: none;
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+}
+.contactone button:hover {
+  height: 4rem;
+  width: 11rem;
+  border-radius: 3rem;
+  margin: 2rem 0 0 40%;
+  outline: none;
+  border: 1px solid orange;
+  background-color: white;
+  color: orange;
+}
+.contactone .contactdetail i {
+  background-color: white;
+  color: orange;
+  font-size: 1.2rem;
+}
+.contactone .contactdetail h6 {
+  line-height: 2rem;
+}
+.login {
+  text-align: center;
+  height: 23rem;
+  margin-top: 4rem;
+}
+.login input {
+  display: block;
+  width: 30%;
+  height: 2.5rem;
+  margin: 1rem 0 1rem 35%;
+}
+.login button {
+  background-color: orange;
+  color: white;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 2rem;
+  outline: none;
+  border: 1px solid orange;
+}
+.login button:hover {
+  background-color: white;
+  color: orange;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 2rem;
+  outline: none;
+  border: 1px solid orange;
+}
+
+/* RESERVATION PAGE */
+
+.form {
+  position: relative;
+  width: 100%;
+  height: 60rem;
+  background-image: url("background-imagepart2.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem 0 0 0;
+}
+.form input {
+  width: 22rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1.1rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 6px;
+}
+.one,.two,.three {
+  display: flex;
+  gap: 1.5rem;
+}
+.form button {
+  background-color: orange;
+  color: white;
+  outline: none;
+  width: 10rem;
+  height: 4rem;
+  border: 2px solid orange;
+  border-radius: 2rem;
+  font-weight: 500;
+}
+.form button:hover {
+  background-color: white;
+  color: orange;
+  outline: none;
+  width: 10rem;
+  height: 4rem;
+  border: 2px solid orange;
+  border-radius: 2rem;
+  font-weight: 500;
+}
+
+/* BLOG PAGE */
+
+.full {
+  background-color: #fff;
+  height: auto;
+  display: flex;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.full .half-of-half {
+  width: 30%;
+  padding: 8rem 0 0 6.5rem;
+  background-color: white;
+}
+.full .half-of-half .smalldiv img {
+  width: 7rem;
+  background-color: white;
+}
+.full .half-of-half .smalldiv img:hover {
+  transition: 2s;
+  transform: scale(1.1);
+}
+.full .half-of-half .smalldiv {
+  display: flex;
+  margin-top: 3rem;
+  background-color: white;
+}
+.full .half-of-half .smalldiv .two {
+  display: table-column;
+  width: 9rem;
+  background-color: white;
+}
+.full .half-of-half .smalldiv p {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 1.2rem 0 0 1rem;
+  color: orange;
+  background-color: white;
+}
+
+.full .half-of-half .smalldiv h6 {
+  background-color: white;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(90, 89, 89);
+  margin-left: 1rem;
+  width: 13rem;
+}
+.full .half-of-half h3 {
+  background-color: white;
+  margin: 1rem 0 1.2rem 0;
+}
+.full .half-of-half hr {
+  border: 1.5px solid black;
+}
+.full .half-of-half p {
+  background-color: white;
+  font-weight: 50;
+}
+.full .half-of-half p:hover {
+  color: orange;
+  font-weight: 50;
+}
+.more-half {
+  width: 90%;
+  background-color: white;
+  margin: 5.5rem 0 0 10rem;
+}
+.more-half img {
+  width: 80%;
+  height: auto;
+  display: block;
+  background-color: white;
+  margin-top: 1.7rem;
+}
+.more-half img:hover {
+  transition: 0.9s;
+  transform: scale(1.1);
+}
+.more-half .text .readmore {
+  background-color: white;
+  color: orange;
+  margin: 1.5rem 0 rem 0;
+}
+.more-half .text .readmore:hover {
+  color: rgb(62, 62, 62);
+}
+.more-half .button {
+  width: 2.5rem;
+  height: 2.6rem;
+  color: black;
+  background-color: white;
+  border: 1px solid rgb(93, 92, 92);
+  margin: 1rem 0 0 1rem;
+}
+.more-half h3:hover {
+  color: orange;
+  transition: 0.5s;
+}
+.more-half h3 {
+  color: black;
+  background-color: white;
+  margin-top: -0.6rem;
+}
+.more-half .button:hover {
+  width: 2.5rem;
+  height: 2.6rem;
+  color: white;
+  background-color: black;
+  transition: 1s;
+}
+.more-half .button2 {
+  color: black;
+  background-color: white;
+  width: 2.5rem;
+  height: 2.6rem;
+  border: 1px solid rgb(93, 92, 92);
+  margin-top: 1rem;
+}
+.more-half .button2:hover {
+  color: white;
+  background-color: black;
+  width: 2.5rem;
+  height: 2.6rem;
+  border: 1px solid rgb(93, 92, 92);
+  margin-top: 1rem;
+  transition: 1s;
+}
+
+/* MENU-BURGER PAGE */
+
+.navbarstyleouter h5 .all1 {
+  outline: none;
+  color: white;
+  background-color: rgb(55, 54, 54);
+  width: 6.28rem;
+  border-radius: 2rem;
+  height: 3rem;
+  margin-top: -0.7rem;
+  border: none;
+}
+.navbarstyleouter h5 :hover {
+  background-color: orange;
+}
+
+/* view more section in category shop page */
+
+.more-half1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 80rem;
+  justify-content: space-around;
+}
+.more-half1 .first img {
+  height: 20rem;
+  margin: 0 0 9rem 1.8rem;
+}
+.more-half1 img:hover {
+  transition: 0.9s;
+  transform: scale(0.8);
+}
+.more-half1 .first1 img {
+  height: 20rem;
+  margin-left: 4.4rem;
+}
+.more-half1 .first1 img:hover {
+  transition: 0.9s;
+  transform: scale(0.8);
+}
+.more-half1 .first2 img {
+  height: 18rem;
+  margin: 0.1rem 0 0 0.4rem;
+}
+.more-half1 .first2 img:hover {
+  transition: 0.9s;
+  transform: scale(0.8);
+}
+.more-half1 .first h5 {
+  text-align: center;
+  margin-top: -9rem;
+}
+.more-half1 .first p {
+  color: white;
+  text-align: center;
+}
+.more-half1 .first h5 p h7 {
+  text-align: center;
+  color: orange;
+}
+
+.more-half1 .first2 h5 {
+  color: white;
+  text-align: center;
+  margin-top: 1.7rem;
+}
+.more-half1 .first2 p {
+  color: rgb(183, 177, 177);
+  text-align: center;
+}
+
+.more-half1 .first1 h5 {
+  color: white;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+.more-half1 .first1 p {
+  color: rgb(183, 177, 177);
+  text-align: center;
+}
+
+/* category shop page */
+
+#cpb1 {
+  background-color: white;
+  color: black;
+  width: 3rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+  border: 1px solid black;
+}
+#cpb1:hover {
+  background-color: black;
+  color: white;
+  width: 3rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+}
+#cpb2 {
+  background-color: white;
+  color: black;
+  width: 3rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+  border: 1px solid black;
+}
+#cpb2:hover {
+  background-color: black;
+  color: white;
+  width: 3rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+}
+
+/* meatsalad.html */
+
+.firstmeatimagediv {
+  display: flex;
+}
+.firstmeatimagediv img {
+  margin-top: 7rem;
+}
+.secondmeatimagediv {
+  margin-top: 13rem;
+}
+.secondmeatimagediv h3 {
+  font-weight: bolder;
+}
+.secondmeatimagediv h6 {
+  color: orange;
+  font-weight: 600;
+}
+.secondmeatimagediv p {
+  font-weight: 300;
+  width: 79%;
+  font-size: 15px;
+}
+.secondmeatimagediv button {
+  width: 13rem;
+  height: 3.8rem;
+  margin-top: 1rem;
+  outline: none;
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+  font-weight: 600;
+}
+.secondmeatimagediv button i {
+  margin-right: 0.9rem;
+  background: transparent;
+  font-size: 1.6rem;
+}
+.secondmeatimagediv button:hover {
+  width: 13rem;
+  height: 3.8rem;
+  margin-top: 1rem;
+  outline: none;
+  border: 1px solid orange;
+  background-color: white;
+  color: orange;
+  transition: 0.7s;
+}
+.secondmeatimagediv button i:hover {
+  margin-right: 0.9rem;
+  background-color: white;
+  font-size: 1.6rem;
+  transition: 0.7s;
+}
+
+.more-half1 .product  button {
+  background-color: transparent;
+  border: none;
+  margin: 0rem 0 1rem 9rem;
+  display: block;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color: orange;
+  font-weight: 500;
+  width: 6rem;
+  font-size: 0.9rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+.more-half1 .product button:hover{
+  color: black;
+}
+
+/* PIZZON WHERE CRUSTS MEETS CREATIVITY */
+
+.customersreview {
+  height: auto;
+  width: 85%;
+  margin: 0 0 5rem 10%;
+}
+.customersreview img {
+  margin-top: 7rem;
+}
+.customersreview .one {
+  background-color: white;
+  letter-spacing: 4px;
+  margin-top: 1rem;
+  word-spacing: 5px;
+}
+.customersreview h4 {
+  background-color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+.customersreview .two {
+  background-color: white;
+  color: rgb(120, 116, 116);
+  font-size: 13.5px;
+  text-align: start;
+  width: 91.5%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.customersreview .box {
+  background-color: white;
+  border: 1px solid rgb(120, 116, 116);
+  width: 91.5%;
+  height: 8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.customersreview .box p {
+  padding: 2.4rem;
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
