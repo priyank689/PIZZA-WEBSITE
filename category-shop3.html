@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOG-Pizzon</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mogra&family=Momo+Signature&family=Pacifico&family=Roboto:ital,wdth,wght@1,95.4,500&family=Zalando+Sans+Expanded:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <img src="logo.png" alt="" />
+      <ul type="none">
+        <li id="home-section">HOME</li>
+        <ul class="dropdown-menu">
+          <li><button class="dropdown-item" type="button">Action</button></li>
+          <li>
+            <button class="dropdown-item" type="button">Another action</button>
+          </li>
+          <li>
+            <button class="dropdown-item" type="button">
+              Something else here
+            </button>
+          </li>
+        </ul>
+        <li id="menu-section">MENU</li>
+        <li id="blog-section">BLOG</li>
+        <li id="reservation-section">RESERVATION</li>
+        <li id="pages-section">PAGES</li>
+        <li><i class="fa-solid fa-phone"></i>+91 5896412357</li>
+        <li id="ccart"><i class="fa-solid fa-bag-shopping"></i>0 items - $0.00</li>
+      </ul>
+      <button id="ccart1">ORDER ONLINE</button>
+    </nav>
+
+    <div class="richresturant">
+      <img src="sandwich.png" alt="" />
+      <h1 class="top-text">SHOP</h1>
+    </div>
+
+<!-- FORM -->
+ <div class="full">
+    <div class="half-of-half">
+        <h3>CATEGORIES</h3>
+        <hr>
+        <p style="margin-top: 2.3rem;">BURGER</p>
+        <hr>
+        <p>DESERTS</p>
+        <hr>
+        <p>DOUBLE CHEESE PIZZA</p>
+        <hr>
+        <p>DRINKS</p>
+        <hr>
+        <p>MARGHERITA PIZZA</p>
+        <hr>
+        <p>MEXICAN GREEN WAVE</p>
+        <hr>
+        <p>PASTA</p>
+        <hr>
+        <p>PIZZAS</p>
+        <hr>
+        <p>SALADS</p>
+        <hr>
+        <h3 style="margin-top: 3rem;">RECENT PRODUCT</h3>
+        <hr>
+        <div class="smalldiv">
+            <div class="one">
+                <img src="meatsalad.png" alt="">
+              </div>
+              <div class="two">  
+                <p>OCTOBER 12,2025</p>
+                <h6 id="meatsaladpage">MEAT SALAD</h6>
+            </div>
+        </div>
+
+        <div class="smalldiv">
+            <div class="one">
+                <img src="lemonjuice.png" alt="" >
+              </div>
+              <div class="two">  
+                <p>OCTOBER 30,2025</p>
+                <h6 id="lemonjuicepage">LEMON JUICE</h6>
+            </div>
+        </div>
+
+    <div class="smalldiv">
+            <div class="one">
+                <img src="sollowburger.png" alt="" >
+              </div>
+              <div class="two">  
+                <p>OCTOBER 31,2025</p>
+                <h6 id="sollowburgerpage">SOLLOW BURGER</h6>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="more-half1" style="background-color: white; margin-top: 12rem;">
+      
+        <div class="first product" style="margin-top: -2.5rem; background-color: white;">
+        <img src="pink doughnut.png" alt="" style="padding-left: 2.5rem; background-color: white; margin-left: 3rem; width: 17rem; height: 15rem;" />
+        <h5 style="padding-left: 1rem; background-color: white; padding-top: 1.5rem;">PINK DOUGHNUT</h5>
+        <p style="padding-left: 2rem; background-color: white; color: rgb(183, 177, 177)">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus…
+        </p>
+        <h7 style="color: orange; background-color: white; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('PINK DOUGHNUT', 1893)">ORDER NOW</button>
+      </div>
+
+      <div class="first product" style=" margin-top: -1.45rem; background-color: white;">
+        <img src="quattro formaggi pasta.png" alt="" style="padding-left: 2.5rem; margin-left: 3.9rem; background-color: white; width: 15.5rem; height: 14rem;" />
+        <h5 style="padding-left: 1rem; background-color: white; padding-top: 1.5rem;">QUATTRO FORMAGGI</h5>
+        <p style="padding-left: 2rem; background-color: white; color: rgb(183, 177, 177)">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus…
+        </p>
+        <h7 style="color: orange; background-color: white; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('QUATTRO FORMAGGI', 1893)">ORDER NOW</button>
+      </div>
+
+      <div class="first product" style="margin-top: -1.6rem; background-color: white;">
+        <img src="rum with soda.png" alt="" style="padding-left: 2rem; background-color: white; margin-left: 4rem; width: 15rem; height: 14rem; margin-top: 0rem;" />
+        <h5 style="padding-left: 1rem; background-color: white; padding-top: 1.5rem;">RUM WITH SODA</h5>
+        <p style="padding-left: 2rem; background-color: white; color: rgb(183, 177, 177)">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus…
+        </p>
+        <h7 style="color: orange; background-color: white; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('RUM WITH SODA', 1893)">ORDER NOW</button>
+      </div>
+
+      <div class="first product" style=" margin-top: -2.2rem; background-color: white;">
+        <img src="sea food pasta.png" alt="" style="padding-left: 2.5rem; background-color: white; margin-left: 3.8rem; width: 16rem; height: 15rem;" />
+        <h5 style="padding-left: 1rem; background-color: white; padding-top: 1.5rem;">SEA FOOD PASTA</h5>
+        <p style="padding-left: 2rem; background-color: white; color: rgb(183, 177, 177)">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus…
+        </p>
+        <h7 style="color: orange; background-color: white; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('SEA FOOD PASTA', 1893)">ORDER NOW</button>
+      </div>
+
+      <div class="first product" style="margin-top: -0.1rem; background-color: white;">
+        <img src="sollowburger.png" alt="" style="margin-left: 5.6rem; width: 12.5rem; background-color: white; height: 13rem;" />
+        <h5 style="padding-left: 1rem; background-color: white; padding-top: 1.5rem;">SOLLOW BURGER </h5>
+        <p style="padding-left: 2rem; background-color: white; color: rgb(183, 177, 177)">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus…
+        </p>
+        <h7 style="color: orange; margin-left: 10.5rem; background-color: white;"> $30.00</h7>
+        <button onclick="addToCart('SOLLOW BURGER', 1893)">ORDER NOW</button>
+      </div>
+
+      
+
+      <div class="first product" style=" margin-top: -1rem; background-color: white;">
+        <img src="specialdrink.png" alt="" style="padding-left: 2.5rem; background-color: white; margin-left: 2.7rem; width: 16rem; height: 14rem;" />
+        <h5 style="padding-left: 1rem; background-color: white; padding-top: 1.5rem;">SPECIAL DRINK</h5>
+        <p style="padding-left: 2rem; background-color: white; color: rgb(183, 177, 177)">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus…
+        </p>
+        <h7 style="color: orange; background-color: white; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('SPECIAL DRINK', 1893)">ORDER NOW</button>
+      </div>
+
+
+      <div class="first product" style="background-color: white;margin-top: -0.4rem;">
+        <img src="vegetarian pasta.png" alt="" style="padding-left: 1rem; padding-bottom: 1.5rem; background-color: white; margin-top: 0.7rem; height: 13rem; margin-left: 6rem;" />
+        <h5 style="padding-left: 0.4rem; background-color: white;">VEGETRAIAN PASTA</h5>
+        <p style="padding-left: 2rem; background-color: white; color: rgb(183, 177, 177)">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus…
+        </p>
+        <h7 style="color: orange; background-color: white; margin-left: 10.5rem"> $10.00</h7>
+        <button onclick="addToCart('VEGETRAIAN PASTA', 1893)">ORDER NOW</button>
+      </div>
+
+      <div class="first product" style="margin-top: -0.7rem; background-color: white;">
+        <img src="veggie combo burger.png" alt="" style="padding-left: 2.5rem; margin-top: 0rem; background-color: white; margin-left: 3rem; width: 17rem; height: 12.5rem;" />
+        <h5 style="padding-left: 1rem; padding-top: 1.5rem; background-color: white;">VEGGIE COMBO</h5>
+        <p style="padding-left: 2rem; background-color: white; color: rgb(183, 177, 177)">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus…
+        </p>
+        <h7 style="color: orange; background-color: white; margin-left: 10.5rem"> $30.00</h7>
+        <button onclick="addToCart('VEGGIE COMBO', 1893)">ORDER NOW</button>
+      </div>
+
+      <div class="first product" style="background-color: white; margin-top: 0.3rem;">
+        <img src="veggie supreme burger.png" alt="" style="padding-left: 1.9rem; padding-bottom: 1.4rem; background-color: white; height: 13rem; margin-left: 2.9rem;" />
+        <h5 style="padding-left: 0.2rem; background-color: white;">VEGGIE SUPREME</h5>
+        <p style="padding-left: 2rem; background-color: white; color: rgb(183, 177, 177)">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+          tellus, luctus…
+        </p>
+        <h7 style="color: orange; background-color: white; margin-left: 10.5rem"> $70.00</h7>
+        <button onclick="addToCart('VEGGIE SUPREME', 1893)">ORDER NOW</button>
+      </div>
+      <!-- <button id="blog-page1" style="color: white; width: 2.5rem; height: 2.6rem;">1</button>
+      <button id="blog-page2" class="button">2</button> -->
+      
+      <!--  -->
+
+    </div>
+</div>  
+ 
+    <button id="cpb" style="margin-left: 29rem; margin-left: 28rem; margin-bottom: 5rem;width: 3rem; height: 2.5rem;color: black; background-color: white; border: 1px solid black;">1</button>
+      <button id="cpb1" >2</button>
+      <button id="cpb2" style="margin-left: 0.8rem;background-color: black;color: white;">3</button>
+    
+
+
+    <!-- last line-->
+    <div class="eleventh">
+      <div class="first" style="margin: 5rem 0 0 4rem;">
+      <img src="logo.png" alt="">
+      <p class="address" style="margin-top:2.3rem;">20 Carrochan Rd, Balloch, Alexandria G83 8EG, UK 69QJ+2F Alexandria, United Kingdom</p>
+      <p class="phone">PHONE – +911234567890,+911234567890</p>
+      <p class="mail">EMAIL – Info@gmail.com</p>
+    </div>
+    <div class="first" style="margin: 8rem 0 0 19rem;">
+      <h5>OPENING HOURS</h5>
+      <p style="margin-top: 1.3rem;">Mon – Tues :
+    6.00 am – 10.00 pm</p>
+    <p>Wednes – Thurs :
+    6.00 am – 10.00 pm</p>
+    <p>
+    Launch :
+    Everyday
+    </p>
+      <p class="inherit">
+    Sunday :
+    <p style="color: white;background-color: orange; width: 5rem;text-align: center; margin: -2.4rem 0 0 7rem;">Closed</p>
+    </p>
+    </div>
+    <div class="first" style="margin: 7rem 0 0 19rem;">
+        <h5>USEFUL LINKS</h5>
+        <p class="orange" style="margin-top: 1.3rem;">Privacy Policy</p>
+        <p class="orange">Order Tracking</p>
+        <p class="orange">Warranty and Services</p>
+        <p class="orange">About Us</p>
+        <p class="orange">Contact</p>
+        <p class="orange">My account</p>
+    </div>
+    </div>
+
+    <div class="footer" style="padding-left: 3rem;">
+        © Pizzon all Rights Reserved. Designed by Priyanshu 
+        <i class="fa-brands fa-facebook" style="margin-left: 49rem;"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-linkedin"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+    </div>
+    <script >function addToCart(name, price) {
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  cart.push({
+    name: name,
+    price: price,
+    qty: 1
+  });
+
+  localStorage.setItem("cart", JSON.stringify(cart));
+
+  alert(name + " added to cart");
+}
+  let all1=document.getElementById("cpb");
+let all2=document.getElementById("cpb1");
+let all3=document.getElementById("cpb2");
+
+all1.addEventListener("click", function () {
+  window.location.href = "category-shop.html";
+});
+
+all2.addEventListener("click", function () {
+  window.location.href = "category-shop2.html";
+});
+all3.addEventListener("click", function () {
+  window.location.href = "category-shop3.html";
+});
+</script>
+    <script src="scriptpages.js"></script>
+    
+  </body>
+</html>
